@@ -1,0 +1,17 @@
+//
+Create a Database with this name: library_management.
+
+create database library_management;
+Create a table book_list under the library_management database.
+
+create table book_list(
+	book_id VARCHAR(10) NOT NULL,
+	book_name VARCHAR(50) NOT NULL,
+	author VARCHAR(50) NOT NULL,
+	edition VARCHAR(10) NOT NULL,
+	price Int(6) NOT NULL,
+	qty Int(4) NOT NULL,
+	PRIMARY KEY ( book_id )
+);
+//
+

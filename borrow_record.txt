@@ -1,0 +1,14 @@
+//
+Create a table borrow_record under the same database.
+
+create table borrow_record(
+	book_id VARCHAR(10) NOT NULL,
+	book_name VARCHAR(50) NOT NULL,
+	stu_roll VARCHAR(15) NOT NULL,
+	stu_name VARCHAR(50) NOT NULL,
+	course VARCHAR(10) NOT NULL,
+	subject VARCHAR(30) NOT NULL,
+	issue_date date NOT NULL,
+	return_date date NOT NULL
+);
+//
