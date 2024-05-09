@@ -1,4 +1,4 @@
-# Library-Management-System - (Tkinter)
+# Library-Management-System - (Tkinter) 
 
 We developed an LMS Project in Python Tkinter GUI of Library Framework to manage various aspects of the Book Holder Records with a user-friendly interface, enabling efficient management of library resources.
 
